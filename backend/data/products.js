@@ -1,6 +1,5 @@
 const products = [
   {
-    _id:'1',
     name: 'Learn Html, Css, Javascript',
     image: '/images/download.png',
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 0,
   },
   {
-    _id:'2',
     name: 'Master Nodejs for Backend Projects',
     image: '/images/download1.png',
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 0,
   },
   {
-    _id:'3',
     name: 'Master Javascript Programming using OOP ',
     image: '/images/download2.jpg',
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 0,
   },
   {
-    _id:'4',
     name: 'Build 20 Projects with Javascript ',
     image: '/images/download3.png',
     description:
@@ -51,7 +47,7 @@ const products = [
     rating: 4.0,
     numReviews: 0,
   },
-  { _id:'5',
+  { 
     name: 'Google suites',
     image: '/images/download4.jpg',
     description:
