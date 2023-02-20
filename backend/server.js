@@ -23,6 +23,12 @@ app.get('/api/products/:id', (req, res) =>{
     res.json(product)
 })
 
+process.on("unhandledRejection", err => {
+    // if you want a stack always throw a error
+    console.log(`Send this to error tracking: ${err.stack}`);
+    console.log("____________");
+})
+
 const PORT = process.env.PORT || 5000
 
 app.listen(PORT, console.log(`Server running in ${process.env.NOD_ENV} on port ${PORT}`))
